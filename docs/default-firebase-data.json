@@ -36,7 +36,7 @@
         }
       ],
       "order": 0,
-      "title": "Supported By"
+      "title": "Powered By"
     },
     {
       "logos": [
@@ -65,14 +65,32 @@
           "url": "https://www.elastic.co"
         },{
           "order": 2,
-          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/GitHub_Logo.png?alt=media&token=c0a5b222-edcd-428c-9f99-a5488f63003c",
-          "name": "GitHub",
-          "url": "https://github.com/"
+          "logoUrl": "https://walls.io/build/downloads/presskit/logo-variations/logo-transparent.png",
+          "name": "Walls.io",
+          "url": "https://walls.io/"
         }
 
       ],
       "order": 2,
       "title": "General partners "
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/steinstudio%20(1).jpg?alt=media&token=c5ae2310-139b-4ab9-99b6-796adf2a3aa0",
+          "name": "Steinstudios",
+          "url": "http://steinstudios.lk/"
+        },
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/UCSC_logo%20(1).jpg?alt=media&token=63ea87b1-000c-4711-a79e-af7f92ba0a24",
+          "name": "UCSC",
+          "url": ""
+        }
+      ],
+      "order": 3,
+      "title": "Venue Partners"
     }
   ],
   "schedule": {
@@ -80,7 +98,7 @@
       "dateReadable": "November 23",
       "timeslots": [
         {
-          "endTime": "10:00",
+          "endTime": "09:00",
           "sessions": [
             {
               "items": [
@@ -1008,6 +1026,33 @@
       "badges": [],
       "title": "Software Engineer"
     },
+    "Albert_Padin": {
+      "badges": [
+        {
+          "description": "Google Cloud Platform, Machine Learning",
+          "link": "https://developers-dot-devsite-v2-prod.appspot.com/community/experts/directory/profile/profile-albert_padin",
+          "name": "gde"
+        }
+      ],
+      "bio": "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio. At Symph, he has architected and developed solutions for 500 Startups, Office of the President of the Philippines, and the World Bank. Albert leads a diverse team of developers in creating software solutions. He ensures that the team's output is high quality and performs well at scale. Albert is also passionate about empowering startups and has been involved in the Philippine Startup Ecosystem, by facilitating and mentoring at Startup Weekends and other events. Prior to that, Albert started SpellDial, directed plays, and mentored street children. He studied Information Technology at the Centre for International Education Global Colleges. He lives in Cebu City, Philippines with his wife. His interests include theatre, performing arts, and the non-trivial act of eradicating poverty.",
+      "company": "Symph",
+      "companyLogo": "https://media.licdn.com/dms/image/C510BAQE376nsMXIYQA/company-logo_400_400/0?e=1577923200&v=beta&t=Ux1sCQwFZipLWdH7YSFlMKxCGKoOArrWbbWurkOxuJE",
+      "companyLogoUrl": "https://media.licdn.com/dms/image/C510BAQE376nsMXIYQA/company-logo_400_400/0?e=1577923200&v=beta&t=Ux1sCQwFZipLWdH7YSFlMKxCGKoOArrWbbWurkOxuJE",
+      "country": "Cebu, Philippines",
+      "featured": true,
+      "name": "Albert Padin",
+      "photo": "https://lh5.googleusercontent.com/-tmpLMtYWiVE/AAAAAAAAAAI/AAAAAAAAMJw/5D7JvbPNprg/s172-c/photo.jpg",
+      "photoUrl": "https://lh5.googleusercontent.com/-tmpLMtYWiVE/AAAAAAAAAAI/AAAAAAAAMJw/5D7JvbPNprg/s172-c/photo.jpg",
+      "shortBio": "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/albertpadin/",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Co-Founder & CTO"
+    },
     "keshan_sodimana": {
       "bio": "Keshan is the former country engineering consultant for Google Sri Lanka. Keshan was the GDG lead and founder for GDG Sri Lanka. Before joining Google, he was a Software Developer for IFS, and he is a co-founder of Siyomek Holdings",
       "company": "Open Data",
@@ -1281,65 +1326,30 @@
   ],
   "tickets": [
     {
-      "available": true,
-      "currency": "$",
-      "ends": "Oct 13",
-      "info": "Requires valid student/lecturer ID",
-      "name": "EDU",
-      "price": 80,
-      "soldOut": false,
-      "starts": "Feb 7",
-      "url": ""
-    },
-    {
       "available": false,
-      "currency": "$",
-      "ends": "Mar 31",
-      "inDemand": false,
-      "info": "Or first 50 tickets",
-      "name": "Pre Early Bird",
-      "price": 100,
-      "regular": true,
-      "soldOut": true,
-      "starts": "Feb 7",
-      "url": ""
-    },
-    {
-      "available": true,
-      "currency": "$",
-      "ends": "Jun 30",
-      "inDemand": true,
-      "info": "Or first 200 tickets",
+      "currency": "Rs",
+      "ends": "Oct 17",
+      "info": "250 tickets",
       "name": "Early Bird",
-      "price": 120,
-      "regular": true,
+      "price": 750,
       "soldOut": false,
-      "starts": "Feb 7",
+      "starts": "Oct 15",
       "url": ""
     },
     {
       "available": false,
-      "currency": "$",
-      "ends": "Sep 30",
+      "currency": "Rs",
+      "ends": "Oct 26",
       "inDemand": false,
-      "info": "Or first 350 tickets",
+      "info": "550 tickets",
       "name": "Regular",
-      "price": 160,
-      "primary": true,
+      "price": 1000,
       "regular": true,
       "soldOut": false,
-      "starts": "Jul 1",
-      "url": ""
-    },
-    {
-      "available": true,
-      "currency": "$",
-      "info": "Money worth nothing when you love it",
-      "name": "I Love DFUA",
-      "price": 280,
-      "soldOut": false,
+      "starts": "Oct 18",
       "url": ""
     }
+
   ],
   "triggers": {
     "images": false
