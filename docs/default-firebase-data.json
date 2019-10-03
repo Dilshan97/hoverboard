@@ -1162,6 +1162,33 @@
       ],
       "title": "Technology Lead"
     },
+    "Saurabh_Arora": {
+      "bio": "Saurabh has been building Android apps for 6 years. Currently a part of the Android team at Viki, Singapore, he has been instrumental in increasing the capabilities and performance of the Viki app, which has been nominated for Google Play Awards, been an Android Excellence awardee, part of the editor's choice apps and launch partners for Android Go and Instant Apps. He believes that one should not only take from the community but also give back to them and hence shares his learnings through blog posts, open-source projects and talks at local meetups, events, and conferences. Outside of engineering, he is a big tennis and cricket fan.",
+      "company": "Rakuten Viki",
+      "companyLogo": "https://images-eu.ssl-images-amazon.com/images/I/41fLQDXrS3L.png",
+      "companyLogoUrl": "https://images-eu.ssl-images-amazon.com/images/I/41fLQDXrS3L.png",
+      "country": "singapore",
+      "featured": true,
+      "name": "Saurabh Arora",
+      "photo": "https://scontent-sin2-1.xx.fbcdn.net/v/t31.0-1/c420.0.960.960a/p960x960/26170687_10155580504659270_2209297553585625245_o.jpg?_nc_cat=111&_nc_oc=AQlid7Uux8bOgdY5UVeoKEEaxGLIXwYnN-n1HW1iTVtcA5RClb4OsbYiN39vbtdMImQ&_nc_ht=scontent-sin2-1.xx&oh=7bd7c36af4086bf582c979ff732c1efb&oe=5E3414D3",
+      "photoUrl": "https://scontent-sin2-1.xx.fbcdn.net/v/t31.0-1/c420.0.960.960a/p960x960/26170687_10155580504659270_2209297553585625245_o.jpg?_nc_cat=111&_nc_oc=AQlid7Uux8bOgdY5UVeoKEEaxGLIXwYnN-n1HW1iTVtcA5RClb4OsbYiN39vbtdMImQ&_nc_ht=scontent-sin2-1.xx&oh=7bd7c36af4086bf582c979ff732c1efb&oe=5E3414D3",
+      "shortBio": "Saurabh has been building Android apps for 6 years. Currently a part of the Android team at Viki, Singapore.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/company/viki",
+          "name": "LinkedIn"
+        }
+      ],
+      "badges": [
+        {
+          "description": " Google Developer Expert Android",
+          "link": "https://developers-dot-devsite-v2-prod.appspot.com/community/experts/directory/profile/profile-saurabh_arora",
+          "name": "gde"
+        }
+      ],
+      "title": "Technology Lead"
+    },
     "Neha_Sharma": {
       "bio": "Neha has 10 years of experience is UI domain. She has started designing and developing the web when IE6 was there. She survived IE6,7, and 8. Today she is working on web - Reactjs, Javascript, PWAs, and many more web technologies. She is active speaker and mentor in the community of India. You can check her own community work on JSLovers Meetup as well as her work as Github too. When she is not coding or speaking you can find her doing calligraphy.",
       "company": "HCL Software",
