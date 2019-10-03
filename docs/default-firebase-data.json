@@ -1325,25 +1325,15 @@
     }
   ],
   "tickets": [
-    {
-      "available": false,
-      "currency": "Rs",
-      "ends": "Oct 17",
-      "info": "250 tickets",
-      "name": "Early Bird",
-      "price": 750,
-      "soldOut": false,
-      "starts": "Oct 15",
-      "url": ""
-    },
+
     {
       "available": false,
       "currency": "Rs",
       "ends": "Oct 26",
       "inDemand": false,
-      "info": "550 tickets",
-      "name": "Regular",
-      "price": 1000,
+      "info": "950 tickets",
+      "name": "Selected",
+      "price": 750,
       "regular": true,
       "soldOut": false,
       "starts": "Oct 18",
