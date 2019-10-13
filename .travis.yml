@@ -12,7 +12,6 @@ install:
 script:
   - yarn lint
   - echo "Building..."
-  - 'if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi'
   - 'if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi'
 before_deploy:
   - echo "Deploying!"
@@ -21,7 +20,7 @@ deploy:
     skip_cleanup: true
     'on':
       branch: master
-    project: hoverboard-master
+    project: DevFest2019
     token:
       secure: BpuqxivMQYPTEjmJxvK9iQCtGBh/kmEGpP5vVTB9V87APRVnHilG5OtWQDlFCZyJ7BrYzbDWV8tsuboyQLLiAlQc+2RxJo1cBNDYHT7UIKXIVwo+jec2ciNOKnFeR6jRUG6N8jo59SBqhlB9bTZ7yrsUsZCQ75SGmD7Na0KY5zkcYX9a9xOWpnspZCN8hv3huwiBd0tD3MLJQ1mToCzk9QL6j6wL0EY4kvbIefj8ENVvkFgMdUOWkOzwecPWgRUjFxnrYfOquhFhlTvRiTjLACgu/nqD+I1JdTWlTy0a4PqBXvcMssOfjIWrMr7A90GGovESgfaKeXWkmwhDT30AcwsPNWw76F0vhi8AgF7aC+0ZUgWTDT3bCcTJy9141RX2Q0KstDVoWtgXx8BamZVRHgdbOE2/vdZFv9tW5f/IsiY2xLJzfQJUqfKEHcp5/t9LPlOQfmWNyzq8JPYTj4wfeYIjRsRjjn4xpq1//JO4s8BiRtkOQw+Tds0ZF6oLubVdsFFpsGEN8pKGjBmpdvnAtVtuqd+3hhQU/OcMSVUU5wPp1Qt3ARsdFfkBOX+m/Q0akhupr8fm6eT+nJUsUM4fIrprjworRMIU+aXErxAT4RjlJ+p/OFsyT5pUFAviY00jNSjZHkKm/XhO65tN5I6CfZuVTZTJwIavg3IC8/+XK48=
       
