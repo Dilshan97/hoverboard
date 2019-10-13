@@ -106,172 +106,108 @@
     }
   ],
   "schedule": {
-    "2019-11-23": {
-      "dateReadable": "November 23",
-      "timeslots": [
-        {
-          "endTime": "09:00",
-          "sessions": [
-            {
-              "items": [132]
-            }
-          ],
-          "startTime": "09:00"
-        },
-        {
-          "endTime": "10:15",
-          "sessions": [
-            {
-              "items": [136]
-            }
-          ],
-          "startTime": "10:00"
-        },
-        {
-          "endTime": "11:00",
-          "sessions": [
-            {
-              "items": [139]
-            }
-          ],
-          "startTime": "10:15"
-        },
-        {
-          "endTime": "11:40",
-          "sessions": [
-            {
-              "items": [103, 112]
-            },
-            {
-              "items": [120]
-            },
-            {
-              "extend": 3,
-              "items": [109]
-            }
-          ],
-          "startTime": "11:00"
-        },
-        {
-          "endTime": "12:30",
-          "sessions": [
-            {
-              "items": [129]
-            },
-            {
-              "items": [116]
-            }
-          ],
-          "startTime": "11:50"
-        },
-        {
-          "endTime": "14:00",
-          "sessions": [
-            {
-              "items": [133]
-            }
-          ],
-          "startTime": "12:30"
-        },
-        {
-          "endTime": "14:40",
-          "sessions": [
-            {
-              "items": [101]
-            },
-            {
-              "items": [118]
-            },
-            {
-              "extend": 2,
-              "items": [107]
-            }
-          ],
-          "startTime": "14:00"
-        },
-        {
-          "endTime": "15:30",
-          "sessions": [
-            {
-              "items": [140]
-            },
-            {
-              "items": [126]
-            }
-          ],
-          "startTime": "14:50"
-        },
-        {
-          "endTime": "16:00",
-          "sessions": [
-            {
-              "items": [134]
-            }
-          ],
-          "startTime": "15:30"
-        },
-        {
-          "endTime": "16:40",
-          "sessions": [
-            {
-              "items": [105]
-            },
-            {
-              "items": [127]
-            },
-            {
-              "extend": 3,
-              "items": [119]
-            }
-          ],
-          "startTime": "16:00"
-        },
-        {
-          "endTime": "17:30",
-          "sessions": [
-            {
-              "items": [112]
-            },
-            {
-              "items": [111]
-            }
-          ],
-          "startTime": "16:50"
-        },
-        {
-          "endTime": "18:20",
-          "sessions": [
-            {
-              "items": [106]
-            },
-            {
-              "items": [125]
-            }
-          ],
-          "startTime": "17:40"
-        },
-        {
-          "endTime": "22:30",
-          "sessions": [
-            {
-              "items": [137]
-            }
-          ],
-          "startTime": "18:30"
-        }
-      ],
-      "tracks": [
-        {
-          "title": "Expo hall"
-        },
-        {
-          "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
-        }
-      ]
-    },
+  "2019-11-23": {
+    "dateReadable": "November 23",
+    "timeslots": [
+      {
+        "startTime": "08:30",
+        "endTime": "09:30",
+        "sessions": [
+          {
+            "items": [600]
+          }
+        ]
+      },
+      {
+        "startTime": "9:30",
+        "endTime": "10:30",
+        "sessions": [
+          {
+            "items": [201]
+          },
+          {
+            "items": [301]
+          },
+          {
+            "items": [401]
+          }
+        ]
+      },
+      {
+        "startTime": "10:30",
+        "endTime": "11:00",
+        "sessions": [
+          {
+            "items": [602]
+          }
+        ]
+      },
+      {
+        "startTime": "11:00",
+        "endTime": "12:30",
+        "sessions": [
+          {
+            "items": [202]
+          },{
+            "items": [302]
+          }, {
+            "items": [402]
+          }
+        ]
+      },
+      {
+        "startTime": "12:30",
+        "endTime": "13:30",
+        "sessions": [
+          {
+            "items": [601]
+          }
+        ]
+      },
+      {
+        "startTime": "13:30",
+        "endTime": "14:30",
+        "sessions": [
+          {
+            "items": [203]
+          },
+          {
+            "items": [303]
+          },
+          {
+            "items": [403]
+          }
+        ]
+      },
+      {
+        "startTime": "14:30",
+        "endTime": "15:30",
+        "sessions": [
+          {
+            "items": [204]
+          },
+          {
+            "items": [304]
+          },
+          {
+            "items": [404]
+          }
+        ]
+      }
+    ],
+    "tracks": [
+
+      {
+        "title": "Class Room A"
+      },
+      {
+        "title": "Class Room B"
+      },
+      {
+        "title": "Class Room C"
+      }
+    ]
+  },
     "2019-11-24": {
       "dateReadable": "November 24",
       "timeslots": [
@@ -280,25 +216,25 @@
           "endTime": "09:30",
           "sessions": [
             {
-              "items": [132]
+              "items": [600]
             }
           ]
         },
         {
-          "startTime": "10:00",
+          "startTime": "9:30",
           "endTime": "10:15",
           "sessions": [
             {
-              "items": [136]
+              "items": [603]
             }
           ]
         },
         {
           "startTime": "10:15",
-          "endTime": "10:55",
+          "endTime": "10:45",
           "sessions": [
             {
-              "items": [139]
+              "items": [607]
             }
           ]
         },
@@ -334,7 +270,7 @@
           "endTime": "13:45",
           "sessions": [
             {
-              "items": [133]
+              "items": [601]
             }
           ]
         },
@@ -376,33 +312,30 @@
         }
       ],
       "tracks": [
-        {
-          "title": "Expo hall"
-        },
+
         {
           "title": "Conference hall"
-        },
-        {
-          "title": "Workshops hall"
         }
       ]
     }
+
+
   },
   "sessions": {
     "101": {
-      "complexity": "Beginner",
-      "description": "TBD",
+      "complexity": "Intermediate",
+      "description": "Cloud computing has revolutionized the way developers implement and deploy applications. By running applications on large-scale compute infrastructures and programming platforms that are remotely accessible as utility services, cloud computing provides scalability, high-availability, and increased user productivity.\n\nIn this talk we will look at the nuts and bolts of real world cloud platforms. We will talk about the hardware and the data centers that physically make up the cloud, and some of the scheduling and control software that help keep cloud platforms operate continuously at scale. Finally, we will discuss the symbiotic relationship between cloud computing and mobile apps, and look at how platforms like Google Firebase make it easier to develop world-class apps powered by the cloud.",
       "language": "English",
       "speakers": ["Hiranya_Jayathilaka"],
-      "tags": ["Cloud"],
-      "title": "TBD"
+      "tags": ["Firebase","Cloud"],
+      "title": "Anatomy of the Cloud"
     },
     "102": {
       "complexity": "Beginner",
       "description": "TBD",
       "language": "English",
       "speakers": ["Kirill_Shmakov"],
-      "tags": ["Android"],
+      "tags": ["Android","Kotlin"],
       "title": "Kotlin"
     },
     "103": {
@@ -410,7 +343,7 @@
       "description": "TBD",
       "language": "English",
       "speakers": ["Albert_Padin"],
-      "tags": ["Cloud"],
+      "tags": ["Cloud","ML"],
       "title": "Machine Learning"
     },
     "104": {
@@ -418,7 +351,7 @@
       "description": "TBD",
       "language": "English",
       "speakers": [],
-      "tags": ["Web"],
+      "tags": ["Web","CI/CD"],
       "title": "Quality in GitLab"
     },
     "105": {
@@ -430,140 +363,130 @@
       "title": "TBD"
     },
     "106": {
-      "complexity": "Beginner",
+      "complexity": "Intermediate",
       "description": "TBD",
       "language": "English",
       "speakers": [],
       "tags": ["Cloud"],
-      "title": "Cloud"
+      "title": "PickMe Engineering 's Journey to Google Cloud Platform "
     },
     "107": {
-      "complexity": "Beginner",
+      "complexity": "Intermediate",
+      "description": "This talk will be a crash course on Themes and Styles. Demystify how styles work and how to read platform/support libraries values.xml file. Decipher which style a View uses, what attributes it exposes and how to customize them. We’ll also see how you can organize your own theme and styles to offer a consistent look and feel across your app and make branding updates a breeze.\n",
+      "language": "English",
+      "speakers": ["Saurabh_Arora"],
+      "tags": ["Android"],
+      "title": "Platform, AppCompat & now Material"
+    },
+    "201": {
+      "complexity": "Intermediate",
       "description": "TBD",
       "language": "English",
+      "presentation": "",
       "speakers": [],
-      "tags": ["Android"],
-      "title": "Android Topic"
+      "tags": ["Kotlin"],
+      "title": "Intro to Kotlin Native"
     },
-    "108": {
+    "202": {
       "complexity": "Intermediate",
-      "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
-      "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
-      "speakers": ["gerard_sans"],
-      "tags": ["Web"],
-      "title": "New Data Architecture in Angular 2",
-      "videoId": "pgmLkwD-mqM"
-    },
-    "109": {
-      "complexity": "Beginner",
       "description": "TBD",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/jozef-vodicka-how-much-money-firebase-can-save-you",
-      "speakers": ["jozef_vodicka"],
-      "tags": ["Cloud"],
-      "title": "How much money Firebase can save you"
+      "presentation": "",
+      "speakers": ["Kirill_Shmakov"],
+      "tags": ["Kotlin"],
+      "title": "Codelab: Using Kotlin Coroutines in your Android app"
     },
-    "110": {
+    "203": {
       "complexity": "Intermediate",
-      "description": "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+      "description": "",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android",
-      "speakers": ["mateusz_herych"],
+      "presentation": "",
+      "speakers": [""],
+      "tags": ["Kotlin"],
+      "title": "Building Web Applications with React and Kotlin JS"
+    },
+    "204": {
+      "complexity": "Intermediate",
+      "description": "",
+      "language": "English",
+      "presentation": "",
+      "speakers": ["Saurabh_Arora"],
       "tags": ["Android"],
-      "title": "The ultimate guide to MVP pattern on Android"
+      "title": "Constraint Layout and Motion Layout"
     },
-    "111": {
+    "301": {
       "complexity": "Intermediate",
-      "description": "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
+      "description": "",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/kseniia-shumelchyk-building-modular-architecture-apps-with-dagger-2",
-      "speakers": ["david_mayboroda"],
-      "tags": ["Android"],
-      "title": "Building modular architecture apps with Dagger 2"
+      "presentation": "",
+      "speakers": ["Sajeetharan_Sinnathurai"],
+      "tags": ["Web","Angular","PWA"],
+      "title": "How to Build a PWA"
     },
-    "112": {
+    "302": {
       "complexity": "Intermediate",
-      "description": "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
+      "description": "",
       "language": "English",
-      "speakers": ["konrad_dzwinel"],
+      "speakers": ["Sajeetharan_Sinnathurai"],
+      "tags": ["Web","Angular"],
+      "title": "How to Leverage Angular Schematics"
+    },
+    "303": {
+      "complexity": "Beginner",
+      "description": "",
+      "language": "English",
+      "presentation": "",
+      "speakers": ["Neha_Sharma"],
       "tags": ["Web"],
-      "title": "Building web apps in 2016"
+      "title": "Web for All"
     },
-    "113": {
+    "304": {
+      "complexity": "Beginner",
+      "description": "",
+      "language": "English",
+      "presentation": "",
+      "speakers": ["Vrijraj_Singh"],
+      "tags": ["Web","Firebase"],
+      "title": "Firebase for Web"
+    },
+    "401": {
       "complexity": "Intermediate",
-      "description": "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
+      "description": "",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine",
-      "speakers": ["jean-baptiste_clion"],
-      "tags": ["Cloud"],
-      "title": "Microservices in Google App Engine"
-    },
-    "114": {
-      "complexity": "Intermediate",
-      "description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful—and underrated—account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
-      "language": "English",
-      "speakers": [12],
-      "tags": ["Android"],
-      "title": "I’ve been doing some syncing…"
-    },
-    "115": {
-      "complexity": "Beginner",
-      "description": "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
-      "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
-      "speakers": ["paul_lammertsma"],
-      "tags": ["Android"],
-      "title": "Android tool-chain and run-time improvements in N",
-      "videoId": "WqULb6bdwwg"
-    },
-    "116": {
-      "complexity": "Beginner",
-      "description": "One of my favourite things about the web are ASCII smileys. They're sweet, fun and simply make the web a better place. How could anyone not like them ¯(ツ)/¯?\n\nThis talk is an overdose of smileys, because they're the perfect excuse to get started with Polymer. Polymer is a library built on top of the Web Components standards that helps developers create reusable components for the modern web. And since I know that everybody has been wondering how one could take over the world by creating a suite of Polymer animated emoticon components, we're going to do exactly that.",
-      "language": "English",
-      "presentation": "http://carmenpopoviciu.github.io/on-polymer-and-smileys/",
-      "speakers": ["aleksander_piotrowski"],
-      "tags": ["Web"],
-      "title": "On Polymer and smileys... or Polysmileys"
-    },
-    "117": {
-      "complexity": "Beginner",
-      "description": "Data is becoming one of the main decision-makers in an organisation. The more data we have the more challenges we face every day. Every decision we make will have long-term implications. In the talk we will go through different approaches to the data pipelines: from a simple in-house built, with comparison to open source solutions based on Apache stack(Apache Kafka, Apache Samza, Spark) and finally hosted auto-scaling solutions based Amazon(S3, Kinesis, Lambda, EMR) or Google(Pub/Sub, Dataflow, BigQuery). The talk covers the main aspects of data collecting processes altogether with further implications for data processing, highlighting appropriate solutions and architectures for the particular use-cases. ",
-      "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/sergii-khomenko-building-data-pipelines-from-simple-to-more-advanced-hands-on-experience",
-      "speakers": ["carmen_popovicu"],
+      "presentation": "",
+      "speakers": ["Albert_Padin"],
       "tags": ["Cloud"],
       "title": "Building data pipelines: from simple to more advanced - hands-on experience"
     },
-    "118": {
+    "402": {
       "complexity": "Intermediate",
       "description": "TBD",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/dmytro-danylyk-kotlin-plus-android",
-      "speakers": ["sergii_khomenko"],
-      "tags": ["Android"],
-      "title": "Kotlin + Android"
+      "presentation": "",
+      "speakers": ["Milindu_Sanoj"],
+      "tags": ["Cloud","GCP"],
+      "title": ""
     },
-    "119": {
-      "complexity": "Beginner",
-      "description": "Writing Android apps is usually fun because you are actually building something. But what about writing tests? Boring stuff. Errr, UI tests? I am a developer!\n\nIn this talk we will take a look at options for UI tests on Android, why you should write them and how they help you with your app development workflow. No more untested apps!",
+    "403": {
+      "complexity": "Intermediate",
+      "description": "TBD",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/jana-moudra-hands-on-with-ui-testing-for-android-developers",
-      "speakers": ["dmytro_danylyk"],
-      "tags": ["Android"],
-      "title": "Hands-on with UI testing for Android developers"
+      "presentation": "",
+      "speakers": [""],
+      "tags": ["Cloud"],
+      "title": "Cloud Functions: Qwik Start - Console"
     },
-    "120": {
-      "complexity": "Beginner",
-      "description": "\"Remember back when AJAX completely changed what was possible in the desktop web? Progressive web apps are that same fundamental shift for the mobile web.\" said Rahul Row-Chowdhury (Google’s product lead for chrome and the web platform) on stage at Google I/O 2016. - Progressive web apps use service workers, app shell, push notifications, RAIL and other capabilities to deliver an app-like user experience.",
-      "shortDescription": "Progressive web apps are are fundamental shift for the mobile web, learn what they are and how they are made. Click to see more...",
+    "404": {
+      "complexity": "Intermediate",
+      "description": "",
+      "shortDescription": "",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/jakub-skvara-progressive-web-apps-prepare-your-web-for-2017",
-      "speakers": ["jana_moudra"],
-      "tags": ["Web"],
-      "title": "Progressive web apps - prepare your web for 2017"
+      "presentation": "",
+      "speakers": [""],
+      "tags": ["Cloud","GCP"],
+      "title": "Hello Cloud Run"
     },
-    "121": {
+    "501": {
       "complexity": "Intermediate",
       "description": "Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the internet connection.",
       "language": "English",
@@ -571,7 +494,7 @@
       "tags": ["Web"],
       "title": "Offline-first progressive web apps"
     },
-    "122": {
+    "502": {
       "complexity": "Intermediate",
       "description": "I would like to talk about architecture of our Settle Up app. It's all based on new Firebase announced on I/O with the help of modern frameworks like Rx, Kotlin and MVP.",
       "language": "English",
@@ -581,7 +504,7 @@
       "title": "Firebase + Kotlin + RxJava + MVP: Practical Tips",
       "videoId": "b9NgjqM6dvk"
     },
-    "123": {
+    "503": {
       "complexity": "Beginner",
       "description": "TBD",
       "language": "English",
@@ -589,7 +512,7 @@
       "tags": ["Web"],
       "title": "TBD"
     },
-    "124": {
+    "504": {
       "complexity": "Intermediate",
       "description": "You are tired of building every patch for your QA ? Still deploying to google play manually ? You still think that build server is something that you don't need ? Than I will try to show you how you can make life of your team easier with CI.",
       "language": "English",
@@ -598,7 +521,7 @@
       "title": "Continues Integration in Android",
       "videoId": "MmGDQkgknfY"
     },
-    "125": {
+    "701": {
       "complexity": "Intermediate",
       "description": "TBD",
       "language": "English",
@@ -606,7 +529,7 @@
       "tags": ["Cloud"],
       "title": "Kubernetes in a real world"
     },
-    "126": {
+    "702": {
       "complexity": "Intermediate",
       "description": "Imagine the world where you can get any application, look into its code (even if it is not open sourced) and modify any conditional operator in any way you like. Welcome, you are in the Android applications world! Let's discover how anyone can decompile your app and, for example, hack your 'if' operators. For the beginning, we will play a role of a script kiddie and try to hack some simple app. After this, we will pretend security-conscious Android developers and try to think how we can protect ourselves.",
       "language": "English",
@@ -616,7 +539,7 @@
       "title": "Android hacking for dummies: ‘if’ operator demolytion",
       "videoId": "We04nyIIsA0"
     },
-    "127": {
+    "703": {
       "complexity": "Intermediate",
       "description": "If you have any experience with Android Media Player, you definitely know how hard it is to prepare it and do not lose your mind. ExoPlayer - is an alternative, which can help you deal with media with much less pain. So lets discuss if it really a \"silver bullet\" or yet another State Machine hell.",
       "language": "Ukrainian",
@@ -625,7 +548,7 @@
       "tags": ["Android"],
       "title": "ExoPlayer: Media playback without pain (almost...)"
     },
-    "128": {
+    "704": {
       "complexity": "Beginner",
       "description": "Google announced Android Wear 2.0 become available this Fall. This major update brings some revolutionary changes in platform, that should change our approaches in developing wearable apps, including freedom of BLE tethering, system support for complications and activity recognition by GoogleFit, developed mainly for Android Wear 2.0. We will talk deeper about these new features and look at some ways to implement them in the code.",
       "language": "English",
@@ -659,49 +582,49 @@
       "tags": ["Android"],
       "title": "Deal with it: Android DataBinding explained"
     },
-    "132": {
+    "600": {
       "description": "Get your badge and enjoy talking with tech edicts around",
       "icon": "registration",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
       "title": "Registration"
     },
-    "133": {
+    "601": {
       "description": "Foooooooood!",
       "icon": "lunch",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
       "title": "Lunch"
     },
-    "134": {
+    "602": {
       "description": "Coffeeeeeee!",
       "icon": "coffee-break",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
       "title": "Coffee break"
     },
-    "135": {
+    "603": {
       "description": "Coffeeeeeee!",
       "icon": "coffee-break",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
       "title": "Morning coffee"
     },
-    "136": {
+    "604": {
       "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
       "icon": "opening",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fopening.jpg?alt=media&token=aa52dd45-50c9-4e36-9485-c1f9138ecd6b",
       "language": "English",
       "title": "GDG DevFest Sri Lanka 2019 Opening"
     },
-    "137": {
+    "605": {
       "description": "Afterparty is a great time to have some fun and meet new people",
       "icon": "party",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
       "title": "Afterparty & Networking"
     },
-    "138": {
+    "606": {
       "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
       "title": "Conference closing and contest winners announcements"
     },
-    "139": {
+    "607": {
       "description": "",
       "language": "English",
       "title": "Keynote"
