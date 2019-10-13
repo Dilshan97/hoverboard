@@ -1,32 +1,26 @@
 language: node_js
-node_js: 8
+node_js:
+  - "10"
 cache:
   yarn: true
   directories:
-  - node_modules
-  - "${NVM_PATH}_modules"
+    - node_modules
+    - '${NVM_PATH}_modules'
 install:
-- yarn
-- cd functions && yarn && cd ..
+  - yarn
+  - cd functions && yarn && cd ..
 script:
-- yarn lint
-- echo "Building..."
-- if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi
-- if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi
+  - yarn lint
+  - echo "Building..."
+  - 'if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi'
 before_deploy:
-- echo "Deploying!"
+  - echo "Deploying!"
 deploy:
-- provider: firebase
-  skip_cleanup: true
-  on:
-    branch: master
-  project: hoverboard-master
-  token:
-    secure: $FIREBASE_TOKEN
-- provider: firebase
-  skip_cleanup: true
-  on:
-    branch: develop
-  project: hoverboard-dev
-  token:
-    secure: dH2t9T+ydWtytB9JMVkbt46Ku2xOYi6dIlLFjyiFvTpYmUs6VZIFBkUP+1ohAlAgjlLeFeqFkWHpCbZfPp2tiPrF+y7VFIXxDM3wlByYyg+cCJDunvqgS7VJ2MX1XviiKIiElgu09T7FiV/59Y3GAh54KL4T8IB5+64tROGMXqgmYv2uwtgNH1AaNjkJFSQ+M9D4JBCpikZYe0Y+aU96IFrpPuo8wjLjk9UL/1WeVmjY1pmHpX0KkYDd4djuXe3wIVPnbzwbWgD7C+vzjFxeaktQv+I4axYj2gPtEuH+sDFU60mIiJoWDsdElUuiV3Sn5mJY5VmbufqNH9ijCl9Um2ufnu16aTQYja39sqK8dQrUsySesebHGNh+aUynusr7FXZInqjSxt7gBjJZGKuvPCRYlx7kZXB/gsij1zY1XlcGe83eCHJV3Ioa1xV8BOaCJTaCQAMmQBH1UVCB7xXsVUgAtlC4LCtjAvxeS7wrKmcVn7CGLXKF8y5Cg9SbtPIYfY3gtDeRYWM3aB28xOq2Zs3u11E4bkjEUWhey1uzbF1J2yOjIwo9l+uroSxmnpoeTjIiXFMBTn+crZ+ygdoB8Pb2zM0M0EukoYbVck7cQa9lICHPFob5UJUdbkpj0qAKOxtx+Uxlb4CUi+KNFeemQ4y9yaZ8IGbPtKycVMJXiOk=
+  - provider: firebase
+    skip_cleanup: true
+    'on':
+      branch: master
+    project: DevFest2019
+    token:
+      secure: BpuqxivMQYPTEjmJxvK9iQCtGBh/kmEGpP5vVTB9V87APRVnHilG5OtWQDlFCZyJ7BrYzbDWV8tsuboyQLLiAlQc+2RxJo1cBNDYHT7UIKXIVwo+jec2ciNOKnFeR6jRUG6N8jo59SBqhlB9bTZ7yrsUsZCQ75SGmD7Na0KY5zkcYX9a9xOWpnspZCN8hv3huwiBd0tD3MLJQ1mToCzk9QL6j6wL0EY4kvbIefj8ENVvkFgMdUOWkOzwecPWgRUjFxnrYfOquhFhlTvRiTjLACgu/nqD+I1JdTWlTy0a4PqBXvcMssOfjIWrMr7A90GGovESgfaKeXWkmwhDT30AcwsPNWw76F0vhi8AgF7aC+0ZUgWTDT3bCcTJy9141RX2Q0KstDVoWtgXx8BamZVRHgdbOE2/vdZFv9tW5f/IsiY2xLJzfQJUqfKEHcp5/t9LPlOQfmWNyzq8JPYTj4wfeYIjRsRjjn4xpq1//JO4s8BiRtkOQw+Tds0ZF6oLubVdsFFpsGEN8pKGjBmpdvnAtVtuqd+3hhQU/OcMSVUU5wPp1Qt3ARsdFfkBOX+m/Q0akhupr8fm6eT+nJUsUM4fIrprjworRMIU+aXErxAT4RjlJ+p/OFsyT5pUFAviY00jNSjZHkKm/XhO65tN5I6CfZuVTZTJwIavg3IC8/+XK48=
+      
