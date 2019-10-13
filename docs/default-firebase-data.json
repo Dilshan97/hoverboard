@@ -37,6 +37,17 @@
       ],
       "order": 0,
       "title": "Powered By"
+    }, {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/whiteBG.png?alt=media&token=e78a9b92-8a43-4074-871d-8688aa43f359",
+          "name": "PickMe Engineering",
+          "url": "https://pickme.lk"
+        }
+      ],
+      "order": 1,
+      "title": "Platinum sponsor"
     },
     {
       "logos": [
@@ -45,9 +56,15 @@
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/cncf-color%20(1).png?alt=media&token=fe7346df-75b1-45d9-b362-1dc7cc084f05",
           "name": "The Cloud Native Computing Foundation",
           "url": "https://www.cncf.io"
+        },
+        {
+          "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/yaalaLabs.jpg?alt=media&token=0acb7f77-76e1-4c07-9410-1687c091471f",
+          "name": "Yaala Labs",
+          "url": "https://www.yaalalabs.com/"
         }
       ],
-      "order": 1,
+      "order": 2,
       "title": "Silver Sponsor "
     },
     {
@@ -71,7 +88,7 @@
         }
 
       ],
-      "order": 2,
+      "order":3 ,
       "title": "General partners "
     },
     {
@@ -81,15 +98,9 @@
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/steinstudio%20(1).jpg?alt=media&token=c5ae2310-139b-4ab9-99b6-796adf2a3aa0",
           "name": "Steinstudios",
           "url": "http://steinstudios.lk/"
-        },
-        {
-          "order": 0,
-          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/UCSC_logo%20(1).jpg?alt=media&token=63ea87b1-000c-4711-a79e-af7f92ba0a24",
-          "name": "UCSC",
-          "url": ""
         }
       ],
-      "order": 3,
+      "order": 4,
       "title": "Venue Partners"
     }
   ],
@@ -952,7 +963,7 @@
   },
   "speakers": {
     "Hiranya_Jayathilaka": {
-      "bio": "Hiranya is a tech lead on the Firebase team. He works on Firebase Admin SDKs that enable backend integrations of Firebase. Prior to joining Google, Hiranya worked as a software engineer at WSO2, where he developed open source enterprise integration and API management technologies. He is a committer for several Apache projects including Apache Synapse and Axis2. Hiranya earned a bachelor’s degree in engineering from University of Moratuwa, Sri Lanka. He also received a Ph.D. in computer science from UC Santa Barbara. Hiranya’s dissertation focuses on the governance of cloud applications via policies, SLOs and programming language techniques. He has published original research in numerous peer-reviewed journals and conferences specialized in cloud computing and web services.",
+      "bio": "Hiranya is a tech lead on the Google Firebase team. He works on the Firebase Admin SDKs, which enable server-side and backend integrations of Firebase. Prior to joining Google, Hiranya worked as a software engineer at WSO2, where he developed open source enterprise integration and API management technologies. He is a committer and a project management committee member for several Apache projects.\n\nHiranya earned a bachelor’s degree in engineering from University of Moratuwa. He also received a Ph.D. in computer science from University of California, Santa Barbara. Hiranya’s dissertation focuses on the governance of cloud applications via policies, SLOs and programming language techniques. He has published original research in numerous peer-reviewed journals and conferences specialized in cloud computing and web services",
       "company": "Google",
       "companyLogo": "../images/logos/google.svg",
       "companyLogoUrl": "../images/logos/google.svg",
