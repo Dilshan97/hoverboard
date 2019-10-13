@@ -18,7 +18,7 @@ before_deploy:
 deploy:
   - provider: firebase
     skip_cleanup: true
-    'on':
+    on:
       branch: master
     project: DevFest2019
     token:
