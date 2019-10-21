@@ -120,7 +120,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference,coffee breaks, and lunch",
+    "ticketsDetails": "Tickets grant access to day 2 conference including lunch and snacks",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"

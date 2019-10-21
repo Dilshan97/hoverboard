@@ -42,7 +42,7 @@
       "logos": [
         {
           "order": 0,
-          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/whiteBG.png?alt=media&token=e78a9b92-8a43-4074-871d-8688aa43f359",
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/PickMe%20Engineering%20Logo.png?alt=media&token=720abb9c-13fa-4b97-af3b-0ab505fbd56a",
           "name": "PickMe Engineering",
           "url": "https://pickme.lk"
         }
@@ -103,6 +103,30 @@
       ],
       "order": 4,
       "title": "Venue Partners"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/logo.png?alt=media&token=bd4d5c1b-07a5-4a88-b586-012c719a696d",
+          "name": "Eticketing.lk",
+          "url": "https://eticketing.lk/"
+        }
+      ],
+      "order": 5,
+      "title": "Digital Ticketing Partner"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfestlk18.appspot.com/o/logos%2Foutput.png?alt=media&token=19960e4d-eae8-4fd4-b7d8-4842ddc42ae8",
+          "name": "RSVP.lk",
+          "url": "http://rsvp.lk/"
+        }
+      ],
+      "order": 6,
+      "title": "Registration Partner"
     }
   ],
   "schedule": {
@@ -130,6 +154,12 @@
           },
           {
             "items": [401]
+          },
+          {
+            "items": [501]
+          },
+          {
+            "items": [701]
           }
         ]
       },
@@ -139,6 +169,9 @@
         "sessions": [
           {
             "items": [602]
+          },
+          {
+            "items": [502]
           }
         ]
       },
@@ -152,6 +185,12 @@
             "items": [302]
           }, {
             "items": [402]
+          },
+          {
+            "items": [503]
+          },
+          {
+            "items": [702]
           }
         ]
       },
@@ -176,6 +215,12 @@
           },
           {
             "items": [403]
+          },
+          {
+            "items": [504]
+          },
+          {
+            "items": [703]
           }
         ]
       },
@@ -191,6 +236,9 @@
           },
           {
             "items": [404]
+          },
+          {
+            "items": [704]
           }
         ]
       }
@@ -205,6 +253,11 @@
       },
       {
         "title": "Class Room C"
+      },{
+        "title": "Class Room D"
+      },
+      {
+        "title": "Class Room E"
       }
     ]
   },
@@ -240,7 +293,7 @@
         },
         {
           "startTime": "11:00",
-          "endTime": "11:35",
+          "endTime": "11:45",
           "sessions": [
             {
               "items": [101]
@@ -248,8 +301,8 @@
           ]
         },
         {
-          "startTime": "11:40",
-          "endTime": "12:10",
+          "startTime": "11:45",
+          "endTime": "12:15",
           "sessions": [
             {
               "items": [102]
@@ -348,11 +401,11 @@
     },
     "104": {
       "complexity": "Beginner",
-      "description": "TBD",
+      "description": "In this session, various tools and technologies which are used to test Gitlab will be discussed. Also it will be explained how engineering productivity is increased by using  few built-in automations.   There are few features of Gitlab which we in turn use to test Gitlab itself. Also, there are some automations that we did in the Quality team which proved to be so useful that it was incorporated as a feature in Gitlab! This talk will give a glimpse of the \"Inception\" effect of testing and building Gitlab. ",
       "language": "English",
-      "speakers": [],
+      "speakers": ["Ramya_Authappan"],
       "tags": ["Web","CI/CD"],
-      "title": "Quality in GitLab"
+      "title": "Quality Engineering @ Gitlab"
     },
     "105": {
       "complexity": "Intermediate",
@@ -416,12 +469,12 @@
     },
     "301": {
       "complexity": "Intermediate",
-      "description": "",
+      "description": "Firebase makes it easy to build feature-rich apps. How easy? Let's try it out together! In this session we will develop an interactive web app that supports user authentication, data storage, real time updates, offline support, push notifications and more. In the process you will be introduced to Firebase Authentication, Cloud Firestore, Cloud Messaging, and several other Firebase services that are designed to make app development easy and fun. We will also briefly look at some of the newest additions to the Firebase platform such as Firebase Extensions and Remote Config for web, that allow developers to take their apps to the next level.",
       "language": "English",
       "presentation": "",
-      "speakers": ["Sajeetharan_Sinnathurai"],
-      "tags": ["Web","Angular","PWA"],
-      "title": "How to Build a PWA"
+      "speakers": ["Hiranya_Jayathilaka"],
+      "tags": ["Web","Firebase"],
+      "title": "Zero to app with Firebase"
     },
     "302": {
       "complexity": "Intermediate",
@@ -454,9 +507,9 @@
       "description": "",
       "language": "English",
       "presentation": "",
-      "speakers": ["Albert_Padin"],
-      "tags": ["Cloud"],
-      "title": "Building data pipelines: from simple to more advanced - hands-on experience"
+      "speakers": ["Nilesh_Jayanandana"],
+      "tags": ["Cloud","Kubernetes","Istio"],
+      "title": "Getting started with Istio with Google Kubernetes Engine"
     },
     "402": {
       "complexity": "Intermediate",
@@ -472,9 +525,9 @@
       "description": "TBD",
       "language": "English",
       "presentation": "",
-      "speakers": [""],
+      "speakers": ["Albert_Padin"],
       "tags": ["Cloud"],
-      "title": "Cloud Functions: Qwik Start - Console"
+      "title": "Building data pipelines: from simple to more advanced - hands-on experience"
     },
     "404": {
       "complexity": "Intermediate",
@@ -487,74 +540,70 @@
       "title": "Hello Cloud Run"
     },
     "501": {
-      "complexity": "Intermediate",
-      "description": "Using service workers and other modern progressive web apps capabilities we can update our web applications to be offline-fires. In this session we'll show how to easily convert your applications be usable without the internet connection.",
+      "complexity": "",
+      "description": "",
       "language": "English",
       "speakers": ["jana_moudra"],
-      "tags": ["Web"],
-      "title": "Offline-first progressive web apps"
+      "tags": ["WTM"],
+      "title": "WTM Breakfast"
     },
     "502": {
-      "complexity": "Intermediate",
-      "description": "I would like to talk about architecture of our Settle Up app. It's all based on new Firebase announced on I/O with the help of modern frameworks like Rx, Kotlin and MVP.",
+      "complexity": "",
+      "description": "",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/david-vavra-firebase-plus-kotlin-plus-rxjava-plus-mvp-practical-tips",
-      "speakers": ["jakub_škvára"],
-      "tags": ["Android"],
-      "title": "Firebase + Kotlin + RxJava + MVP: Practical Tips",
-      "videoId": "b9NgjqM6dvk"
+      "presentation": "",
+      "speakers": [""],
+      "tags": ["IamRemarkable","WTM"],
+      "title": "IamRemarkable",
+      "videoId": ""
     },
     "503": {
       "complexity": "Beginner",
       "description": "TBD",
       "language": "English",
-      "speakers": ["david_vávra"],
-      "tags": ["Web"],
+      "speakers": [],
+      "tags": ["WTM"],
       "title": "TBD"
     },
     "504": {
-      "complexity": "Intermediate",
-      "description": "You are tired of building every patch for your QA ? Still deploying to google play manually ? You still think that build server is something that you don't need ? Than I will try to show you how you can make life of your team easier with CI.",
+      "complexity": "",
+      "description": "",
       "language": "English",
-      "speakers": ["valentyn_shybanov"],
-      "tags": ["Android"],
-      "title": "Continues Integration in Android",
-      "videoId": "MmGDQkgknfY"
+      "speakers": [""],
+      "tags": ["AOG","DialogFlow","WTM"],
+      "title": "Create own voice application"
     },
     "701": {
       "complexity": "Intermediate",
       "description": "TBD",
       "language": "English",
-      "speakers": ["sergiy_mokienko"],
-      "tags": ["Cloud"],
-      "title": "Kubernetes in a real world"
+      "speakers": [""],
+      "tags": ["ML"],
+      "title": "TBD"
     },
     "702": {
       "complexity": "Intermediate",
-      "description": "Imagine the world where you can get any application, look into its code (even if it is not open sourced) and modify any conditional operator in any way you like. Welcome, you are in the Android applications world! Let's discover how anyone can decompile your app and, for example, hack your 'if' operators. For the beginning, we will play a role of a script kiddie and try to hack some simple app. After this, we will pretend security-conscious Android developers and try to think how we can protect ourselves.",
+      "description": " TBD",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/michael-pustovit-android-hacking-for-dummies-if-operator-demolytion",
-      "speakers": ["ihor_dvoretskyi"],
-      "tags": ["Android"],
-      "title": "Android hacking for dummies: ‘if’ operator demolytion",
-      "videoId": "We04nyIIsA0"
+      "speakers": [""],
+      "tags": ["ML"],
+      "title": "TBD"
     },
     "703": {
       "complexity": "Intermediate",
-      "description": "If you have any experience with Android Media Player, you definitely know how hard it is to prepare it and do not lose your mind. ExoPlayer - is an alternative, which can help you deal with media with much less pain. So lets discuss if it really a \"silver bullet\" or yet another State Machine hell.",
-      "language": "Ukrainian",
-      "presentation": "https://speakerdeck.com/gdglviv/anton-minashkin-exoplayer-media-playback-without-pain-almost-dot-dot-dot",
-      "speakers": ["michael_pustovit"],
-      "tags": ["Android"],
-      "title": "ExoPlayer: Media playback without pain (almost...)"
+      "description": "",
+      "language": "English",
+      "speakers": [""],
+      "tags": ["ML"],
+      "title": "TBD"
     },
     "704": {
       "complexity": "Beginner",
-      "description": "Google announced Android Wear 2.0 become available this Fall. This major update brings some revolutionary changes in platform, that should change our approaches in developing wearable apps, including freedom of BLE tethering, system support for complications and activity recognition by GoogleFit, developed mainly for Android Wear 2.0. We will talk deeper about these new features and look at some ways to implement them in the code.",
+      "description": "",
       "language": "English",
-      "speakers": ["anton__minashkin"],
-      "tags": ["Android"],
-      "title": "Android Wear 2.0: Great Changes Upcoming this Fall"
+      "speakers": [""],
+      "tags": ["ML"],
+      "title": "TBD"
     },
     "129": {
       "complexity": "Intermediate",
@@ -710,6 +759,26 @@
       ],
       "badges": [],
       "title": "Software Engineer"
+    },"Ramya_Authappan": {
+      "bio": "Ramya is passionate about building and designing test frameworks. She has around 10 years of experience and is currently enjoying her role as Quality Engineering Manager at Gitlab. Prior to Gitlab, she has worked with PayPal and Amazon. “Simple, but powerful” is her slogan for building test frameworks/tools. She is also the Director of WomenWhoCode, Chennai and helps in organising meetups for the same, encouraging women in technology. When she's not working, you can find her spending time with her kid and hanging out with friends.\n",
+      "company": " Gitlab",
+      "companyLogo": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/rsz_gitlab-logo-gray-rgb.png?alt=media&token=078a437a-b0df-4f42-ab6f-94c743783023",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/rsz_gitlab-logo-gray-rgb.png?alt=media&token=078a437a-b0df-4f42-ab6f-94c743783023",
+      "country": "Chennai,India",
+      "featured": true,
+      "name": "Ramya Authappan",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/headshot.jpg?alt=media&token=aafcaa0e-ffcb-4038-b6ef-655bf48346bf",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/headshot.jpg?alt=media&token=aafcaa0e-ffcb-4038-b6ef-655bf48346bf",
+      "shortBio": "Ramya is passionate about building and designing test frameworks. She has around 10 years of experience and is currently enjoying her role as Quality Engineering Manager at Gitlab.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ramyaat",
+          "name": "LinkedIn"
+        }
+      ],
+      "badges": [],
+      "title": "Engineering Manager"
     },
     "Albert_Padin": {
       "badges": [
@@ -920,6 +989,26 @@
         }
       ],
       "title": "Front End Developer"
+    },
+    "Nilesh_Jayanandana": {
+      "bio": " With over 5 years of experience in the industry, Nilesh Jayanandana is one of the lead architects at Platformer Cloud where they are building a Cloud Solution on top of Kubernetes. He is the community lead in the Cloud Native Computing Foundation Community Group Kubernetes Sri Lanka and is a public speaker on the topics of Kubernetes, Cloud, Containers and Web Technologies. Graduated with a BSc in Information Technology specializing in Software Engineering from Sri Lanka Institute of Information Technology, he further has achieved the qualifications of Google Cloud Authorized Trainer and Google Cloud Authorized Google Cloud Professional Architect. He loves collaborating with others and sharing his knowledge to help people whenever he can.",
+      "company": "Platformer Cloud",
+      "companyLogo": "https://platformer.com/_next/static/images/platformer-logo-a74fb790c080232551929c0060e0ae17.svg",
+      "companyLogoUrl": "https://platformer.com/_next/static/images/platformer-logo-a74fb790c080232551929c0060e0ae17.svg",
+      "country": "Colombo , Sri Lanka",
+      "featured": true,
+      "name": "Nilesh Jayanandana",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/IMG_8323.jpeg?alt=media&token=8dee2835-f92f-4350-8bc1-a05e22ae6a39",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/IMG_8323.jpeg?alt=media&token=8dee2835-f92f-4350-8bc1-a05e22ae6a39",
+      "shortBio": "With over 5 years of experience in the industry, Nilesh Jayanandana is one of the lead architects at Platformer Cloud where they are building a Cloud Solution on top of Kubernetes.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/nilesh93",
+          "name": "LinkedIn"
+        }
+      ],
+      "title": "Architect"
     }
   },
   "team": [
@@ -1047,7 +1136,7 @@
       "price": 750,
       "regular": true,
       "soldOut": false,
-      "starts": "Oct 18",
+      "starts": "Oct 21",
       "url": ""
     }
   ],
