@@ -42,7 +42,7 @@
       "logos": [
         {
           "order": 0,
-          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/PickMe%20Engineering%20Logo.png?alt=media&token=720abb9c-13fa-4b97-af3b-0ab505fbd56a",
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/rsz_pickme_engineering_logo.png?alt=media&token=8fb2f2a6-2bd3-4ac6-96cc-883248e20c68",
           "name": "PickMe Engineering",
           "url": "https://pickme.lk"
         }
@@ -371,8 +371,6 @@
         }
       ]
     }
-
-
   },
   "sessions": {
     "101": {
@@ -674,9 +672,11 @@
       "title": "Conference closing and contest winners announcements"
     },
     "607": {
-      "description": "",
+      "description": "Which covers advancements in AI, how AI is helping citizens, Edge AI and Edge TPUs, potential AI unlocks, and the future of AI",
       "language": "English",
-      "title": "Keynote"
+      "title": "Keynote - Cruising on AI Wave",
+      "speakers": ["Siddhant_Agarwal"],
+      "tags": ["AI","ML"]
     },
     "140": {
       "description": "TBD",
@@ -711,6 +711,33 @@
         }
       ],
       "title": "Senior Software Engineer"
+    },
+    "Siddhant_Agarwal": {
+      "bio": "He lead Google Developer Expert Program and Broader Developer Communities Program as part of Google Developer Relations team in India. His roles include:\n- Identify, work closely and build relationship with 45+ Google Developer Experts in India.\n- Working closely with internal stakeholders and Product Area POCs involved in running the program.\n- Deliver trainings, sessions at Google Developers led or 3rd party conferences.\n- Identify, work closely and build relationship with other third party communities in India.\n- Establish relationship between 1P Developer communities (40+ GDG and GDG Cloud communities in India) and 3P communities in India.\n- Leading strategic efforts towards Build for Digital India Program to enable student entrepreneurs and student developers \"Solve for India\"\n- Working closely with various Product Areas POCs and developers in the region to understand the state of technology/product area in India",
+      "company": "Google",
+      "companyLogo": "../images/logos/google.svg",
+      "companyLogoUrl": "../images/logos/google.svg",
+      "country": "India",
+      "featured": true,
+      "name": "Siddhant Agarwal",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/1.jpg?alt=media&token=d85429d8-156b-424d-98fa-3883711c84f0",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest2019-e86e2.appspot.com/o/1.jpg?alt=media&token=d85429d8-156b-424d-98fa-3883711c84f0",
+      "shortBio": "He lead Google Developer Expert Program and Broader Developer Communities Program as part of Google Developer Relations team in India.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/hiranyajayathilaka",
+          "name": "LinkedIn"
+        }
+      ],
+      "badges": [
+        {
+          "description": "Program Coordinator, Google Developer Relations",
+          "link": "https://www.linkedin.com/in/siddhantagarwal",
+          "name": "google"
+        }
+      ],
+      "title": "Program Coordinator, Google Developer Relations"
     },
     "Shweta_Bhatt": {
       "bio": "Data Scientist, currently working in the AI team at Youplus, a startup based out of Bangalore and headquartered in New York City. She specializes in building a range of machine learning based products mostly within the NLP domain. She holds an undergraduate degree from Birla Institute of Technology and Science, Pilani in Information Systems and a Master's degree from King's College London in Artificial Intelligence. She has previously worked as a Software Developer at Cisco Systems and Apigee (acquired by Google in 2016) before transitioning into her AI career. She also has research experience at King's College London within the NetSys and the Biostatistics & Health Informatics research groups and has a paper - Illuminating and ecosystem of partisan websites published at the Web Conference 2018. Apart from this, she likes to contribute to the ML community by writing tech blogs which have been published in KDnuggets and TowardsDataScience on Medium. She is a mentor at Springboard, an online learning platform, through which she helps aspiring learners get started with their Data Science and AI/ML careers. She is also an AI consultant for a retail startup called SprintAI. Her interests within AI include Natural Language Processing, Deep Learning, Reinforcement Learning and Game Theory.",
@@ -1127,17 +1154,30 @@
   ],
   "tickets": [
     {
-      "available": false,
+      "available": true,
       "currency": "Rs",
-      "ends": "Oct 26",
-      "inDemand": false,
-      "info": "950 tickets",
-      "name": "Selected",
+      "ends": "Nov 26",
+      "inDemand": true,
+      "info": "850 tickets",
+      "name": "Main Conference",
       "price": 750,
       "regular": true,
       "soldOut": false,
-      "starts": "Oct 21",
-      "url": ""
+      "starts": "Nov 22",
+      "url": "http://rsvp.lk/gdgsrilanka/devfest-2019/register"
+    },
+    {
+      "available": true,
+      "currency": "",
+      "ends": "Nov 26",
+      "inDemand": true,
+      "info": "850 tickets",
+      "name": "Workshops",
+      "price": "FREE",
+      "regular": true,
+      "soldOut": false,
+      "starts": "Nov 22",
+      "url": "http://rsvp.lk/gdgsrilanka/devfest-2019/register-workshop"
     }
   ],
   "triggers": {
