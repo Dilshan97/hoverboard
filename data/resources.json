@@ -56,12 +56,12 @@
       "title": "Explore Past DevFests",
       "links": [
         {
-          "name": "DFLK 2017",
+          "name": "DevFest 2017",
           "url": "https://devfest-17.firebaseapp.com/",
           "newTab": true
         },
         {
-          "name": "DFLK 2018",
+          "name": "DevFest 2018",
           "url": "https://devfest18.gdgsrilanka.org/",
           "newTab": true
         }
@@ -120,7 +120,7 @@
   },
   "ticketsBlock": {
     "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to day 2 conference including lunch and snacks",
+    "ticketsDetails": "Day 1 Tickets grant access to workshops, lunch and snaks for codelabs on 23rd. Day 2 Tickets grant access to main conference on 24th including lunch and snacks",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
@@ -137,7 +137,7 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "DFLK'18 featured videos",
+    "title": "DevFest 2018 featured videos",
     "callToAction": {
       "label": "See all videos",
       "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
@@ -235,15 +235,15 @@
     "blocks": [
       {
         "title": "Organizer",
-        "description": "<a href='https://gdgsrilanka.org' target='_blank'>GDG Sri Lanka</a> is proud organizer of DevFest Sri Lanka 2019",
+        "description": "<a href='https://gdgsrilanka.org' target='_blank'>GDG Sri Lanka</a> and GDG Cloud Sri Lanka are the proud organizers of DevFest Sri Lanka 2019",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
         }
       },
       {
-        "title": "What is GDG?",
-        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+        "title": "What is a GDG?",
+        "description": "Google Developers Group (GDG) - is an open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
         "callToAction": {
           "label": "Read more",
           "link": "https://developers.google.com/groups/",
