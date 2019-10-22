@@ -1155,29 +1155,29 @@
   "tickets": [
     {
       "available": true,
+      "currency": "",
+      "ends": "",
+      "inDemand": false,
+      "info": "850 tickets",
+      "name": "Workshops",
+      "price": "FREE",
+      "regular": true,
+      "soldOut": false,
+      "starts": "Nov 23",
+      "url": "http://rsvp.lk/gdgsrilanka/devfest-2019/register-workshop"
+    },
+    {
+      "available": true,
       "currency": "Rs",
-      "ends": "Nov 26",
+      "ends": "",
       "inDemand": true,
       "info": "850 tickets",
       "name": "Main Conference",
       "price": 750,
       "regular": true,
       "soldOut": false,
-      "starts": "Nov 22",
+      "starts": "Nov 24",
       "url": "http://rsvp.lk/gdgsrilanka/devfest-2019/register"
-    },
-    {
-      "available": true,
-      "currency": "",
-      "ends": "Nov 26",
-      "inDemand": true,
-      "info": "850 tickets",
-      "name": "Workshops",
-      "price": "FREE",
-      "regular": true,
-      "soldOut": false,
-      "starts": "Nov 22",
-      "url": "http://rsvp.lk/gdgsrilanka/devfest-2019/register-workshop"
     }
   ],
   "triggers": {
